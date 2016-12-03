@@ -1,0 +1,39 @@
+{ "name": "rand64-pmb",
+  "version": "0.1.0",
+  "description": "Waste less randomness when generating random sequences of the first 64 characters of your alphabet.",
+  "keywords": [
+    "base64",
+    "id",
+    "rand",
+    "random",
+    "session",
+    "url-safe"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/rand64-pmb-js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/rand64-pmb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/rand64-pmb-js/issues"
+  },
+
+  "private": false, "license": "ISC",
+
+  "main": "r64.js",
+  "scripts": {
+    "test": "nodejs test/all.js"
+  },
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+
+  "dependencies": {},
+  "devDependencies": { "equal-pmb": "^0.1.0" },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
